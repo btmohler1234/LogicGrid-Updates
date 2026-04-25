@@ -5,5 +5,14 @@
 <link>https://raw.githubusercontent.com/btmohler1234/LogicGrid-updates/main/appcast.xml</link>
 <description>LogicGrid app updates</description>
 <language>en</language>
+<item>
+<title>LogicGrid 9.2.0</title>
+<sparkle:version>920</sparkle:version>
+<sparkle:shortVersionString>9.2.0</sparkle:shortVersionString>
+<sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+<description><![CDATA[<h3>LogicGrid 9.2.0</h3><p>Pipeline test release. Welcome window now mentions auto-update.</p>]]></description>
+<pubDate>Fri, 24 Apr 2026 22:30:00 -0500</pubDate>
+<enclosure url="https://github.com/btmohler1234/LogicGrid-updates/releases/download/v9.2.0/LogicGrid-9.2.0.zip" sparkle:edSignature="K/I4Yt5kFCFGLwHh9wZqodqwSsY+EuvpIhoogCTN2uD4e5oBJ7XfGVGKtIHn9vOORC1a9qHiwKqUX7b42qo9DQ==" length="4310755" type="application/octet-stream"/>
+</item>
 </channel>
 </rss>
