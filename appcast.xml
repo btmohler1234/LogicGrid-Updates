@@ -6,13 +6,44 @@
 <description>LogicGrid app updates</description>
 <language>en</language>
 <item>
-<title>LogicGrid 9.2.0</title>
-<sparkle:version>920</sparkle:version>
-<sparkle:shortVersionString>9.2.0</sparkle:shortVersionString>
+<title>LogicGrid 10.0.0</title>
+<sparkle:version>1000</sparkle:version>
+<sparkle:shortVersionString>10.0.0</sparkle:shortVersionString>
 <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-<description><![CDATA[<h3>LogicGrid 9.2.0</h3><p>Pipeline test release. Welcome window now mentions auto-update.</p>]]></description>
-<pubDate>Fri, 24 Apr 2026 22:30:00 -0500</pubDate>
-<enclosure url="https://github.com/btmohler1234/fcal-updates-2026/releases/download/v9.2.0/LogicGrid-9.2.0.zip" sparkle:edSignature="K/I4Yt5kFCFGLwHh9wZqodqwSsY+EuvpIhoogCTN2uD4e5oBJ7XfGVGKtIHn9vOORC1a9qHiwKqUX7b42qo9DQ==" length="4310755" type="application/octet-stream"/>
+<description><![CDATA[<h3>LogicGrid 10.0.0</h3>
+<p>Major release. Subdivisions rewritten, modes rebalanced, polish across the board.</p>
+<h4>New</h4>
+<ul>
+<li>Subdivision rendering rewritten with mathematical placement + tick snapping</li>
+<li>"Show subdivisions up to" cascade: bars / beats / 8ths / 16ths</li>
+<li>"Fully zoomed" setting controls tick density when bars aren't visible</li>
+<li>Spotlight Circle has a feathered edge, adjustable in Settings</li>
+<li>Working-state visual — grid dims smoothly while scanning or refining</li>
+<li>Welcome window resizes to fit any screen</li>
+<li>Troubleshooting menu item</li>
+</ul>
+<h4>Changed</h4>
+<ul>
+<li>Scrub Mode now runs alongside the grid instead of replacing it</li>
+<li>"Always On" renamed to "Full Grid"</li>
+<li>Mode cycle: Spotlight Vertical → Spotlight Circle → Selected Tracks + Regions → Full Grid</li>
+<li>Grid + scrub line hide while Welcome or Settings are open, or when Logic loses focus</li>
+</ul>
+<h4>Shortcuts</h4>
+<ul>
+<li>⌃⌥J — mute / unmute (was: cycle modes)</li>
+<li>⌃⌥K — cycle modes (was: mute)</li>
+<li>⌃⌥; — toggle Scrub Mode</li>
+<li>⌃⌥' — cycle subdivision detail (new)</li>
+</ul>
+<h4>Fixed</h4>
+<ul>
+<li>Drawing accuracy at extreme zoom levels</li>
+<li>Phantom bar lines at extreme zoom</li>
+<li>Welcome window text no longer shrinks when clicked</li>
+</ul>]]></description>
+<pubDate>Sun, 26 Apr 2026 01:00:00 -0500</pubDate>
+<enclosure url="https://github.com/btmohler1234/fcal-updates-2026/releases/download/v10.0.0/LogicGrid-10.0.0.zip" sparkle:edSignature="giNnVuJCmiqhPVfCfLSniyhgMksTSgPTTfMY/XN+QuSffhvbYbEmLdd8LSRFQWic+9K+KOUpBuUX/4CQ+mJpBQ==" length="4762399" type="application/octet-stream"/>
 </item>
 </channel>
 </rss>
