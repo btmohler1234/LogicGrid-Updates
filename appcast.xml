@@ -6,44 +6,31 @@
 <description>LogicGrid app updates</description>
 <language>en</language>
 <item>
-<title>LogicGrid 10.0.0</title>
-<sparkle:version>1000</sparkle:version>
-<sparkle:shortVersionString>10.0.0</sparkle:shortVersionString>
+<title>LogicGrid 10.1.0</title>
+<sparkle:version>1010</sparkle:version>
+<sparkle:shortVersionString>10.1.0</sparkle:shortVersionString>
 <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-<description><![CDATA[<h3>LogicGrid 10.0.0</h3>
-<p>Major release. Subdivisions rewritten, modes rebalanced, polish across the board.</p>
-<h4>New</h4>
+<description><![CDATA[<h3>LogicGrid 10.1.0</h3>
+<h4>What's New</h4>
 <ul>
-<li>Subdivision rendering rewritten with mathematical placement + tick snapping</li>
-<li>"Show subdivisions up to" cascade: bars / beats / 8ths / 16ths</li>
-<li>"Fully zoomed" setting controls tick density when bars aren't visible</li>
-<li>Spotlight Circle has a feathered edge, adjustable in Settings</li>
-<li>Working-state visual — grid dims smoothly while scanning or refining</li>
-<li>Welcome window resizes to fit any screen</li>
-<li>Troubleshooting menu item</li>
+<li>Three grid color presets: Light, Dark, Custom — touch any setting and it auto-saves as Custom</li>
 </ul>
 <h4>Changed</h4>
 <ul>
-<li>Scrub Mode now runs alongside the grid instead of replacing it</li>
-<li>"Always On" renamed to "Full Grid"</li>
-<li>Mode cycle: Spotlight Vertical → Spotlight Circle → Selected Tracks + Regions → Full Grid</li>
-<li>Grid + scrub line hide while Welcome or Settings are open, or when Logic loses focus</li>
-</ul>
-<h4>Shortcuts</h4>
-<ul>
-<li>⌃⌥J — mute / unmute (was: cycle modes)</li>
-<li>⌃⌥K — cycle modes (was: mute)</li>
-<li>⌃⌥; — toggle Scrub Mode</li>
-<li>⌃⌥' — cycle subdivision detail (new)</li>
+<li>Bottom strip detection anchored from top of ruler — fixes detection issues for users with secondary ruler enabled</li>
+<li>Removed adaptive line color feature (replaced by explicit Light/Dark presets)</li>
 </ul>
 <h4>Fixed</h4>
 <ul>
-<li>Drawing accuracy at extreme zoom levels</li>
-<li>Phantom bar lines at extreme zoom</li>
-<li>Welcome window text no longer shrinks when clicked</li>
+<li>Phantom bar lines at extreme zoom when only one bar was detected</li>
+</ul>
+<h4>Improved</h4>
+<ul>
+<li>Bug report screenshot captures dev overlay info automatically</li>
+<li>Dev overlay layout no longer truncates ruler height value</li>
 </ul>]]></description>
-<pubDate>Sun, 26 Apr 2026 01:00:00 -0500</pubDate>
-<enclosure url="https://github.com/btmohler1234/fcal-updates-2026/releases/download/v10.0.0/LogicGrid-10.0.0.zip" sparkle:edSignature="giNnVuJCmiqhPVfCfLSniyhgMksTSgPTTfMY/XN+QuSffhvbYbEmLdd8LSRFQWic+9K+KOUpBuUX/4CQ+mJpBQ==" length="4762399" type="application/octet-stream"/>
+<pubDate>Sun, 27 Apr 2026 00:30:00 -0500</pubDate>
+<enclosure url="https://github.com/btmohler1234/fcal-updates-2026/releases/download/v10.1.0/LogicGrid-10.1.0.zip" sparkle:edSignature="mAsw0UoIAn55P5nFxqiMg1k+tIOUbyw+WWvxSqbiOSFaP4+8rBtlc4iJ8wfgfryCZwzffH0vg9d6cW04csHbCg==" length="4673008" type="application/octet-stream"/>
 </item>
 </channel>
 </rss>
