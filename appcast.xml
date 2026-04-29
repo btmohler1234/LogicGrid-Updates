@@ -6,23 +6,17 @@
 <description>LogicGrid app updates</description>
 <language>en</language>
 <item>
-<title>LogicGrid 10.1.2</title>
-<sparkle:version>1012</sparkle:version>
-<sparkle:shortVersionString>10.1.2</sparkle:shortVersionString>
+<title>LogicGrid 10.1.3</title>
+<sparkle:version>1013</sparkle:version>
+<sparkle:shortVersionString>10.1.3</sparkle:shortVersionString>
 <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-<description><![CDATA[<h3>LogicGrid 10.1.2</h3>
-<h4>New</h4>
+<description><![CDATA[<h3>LogicGrid 10.1.3</h3>
+<h4>Fixed</h4>
 <ul>
-<li>32nds added as a subdivision option</li>
-<li>Fully zoomed line skipping: Show all / Skip every other / Skip 3 in a row / Skip 7 in a row</li>
-<li>Independent Alternate line opacity toggle — stacks with skip patterns</li>
-</ul>
-<h4>Changed</h4>
-<ul>
-<li>Watchdog no longer force-quits LogicGrid when the main thread appears unresponsive. Captures a stack trace dump to ~/Library/Application Support/LogicGrid/ instead — send these to the developer if you experience hangs.</li>
+<li>Detection strips no longer drift when Logic's "Show Global Tracks" is enabled. Previously, opening any global track row would cause the grid to mis-detect or fail to refine because Logic reports a taller ruler frame to Accessibility, which threw off our scan positions.</li>
 </ul>]]></description>
-<pubDate>Tue, 28 Apr 2026 12:00:00 -0500</pubDate>
-<enclosure url="https://github.com/btmohler1234/fcal-updates-2026/releases/download/v10.1.2/LogicGrid-10.1.2.zip" sparkle:edSignature="bjy6cRkXffjNyaW9OQYxFX1Ko7v5KeOXIB59kzD8WhdK5RcfJR7cedOtiyMoh2KrQk765QM5MFd1nZuOUU2nBA==" length="4692338" type="application/octet-stream"/>
+<pubDate>Tue, 28 Apr 2026 19:00:00 -0500</pubDate>
+<enclosure url="https://github.com/btmohler1234/fcal-updates-2026/releases/download/v10.1.3/LogicGrid-10.1.3.zip" sparkle:edSignature="pLAjepVtbrrHpDlhWRv/bRRuM6R4WQ2dAYJiVg6M1LkPfhAAvcM/6KmrpS8YZ3lITm/upX/USQeI+yKcMYO6Ag==" length="4691491" type="application/octet-stream"/>
 </item>
 </channel>
 </rss>
