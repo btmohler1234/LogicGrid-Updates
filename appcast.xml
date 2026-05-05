@@ -6,14 +6,15 @@
 <description>LogicGrid app updates</description>
 <language>en</language>
 <item>
-<title>LogicGrid 10.1.6</title>
-<sparkle:version>1016</sparkle:version>
-<sparkle:shortVersionString>10.1.6</sparkle:shortVersionString>
+<title>LogicGrid 11.0.0</title>
+<sparkle:version>11000</sparkle:version>
+<sparkle:shortVersionString>11.0.0</sparkle:shortVersionString>
 <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-<description><![CDATA[<h3>LogicGrid 10.1.6</h3>
-<p>Improves support for external monitors connected via docks, and when non-Retina and Retina displays are combined.</p>]]></description>
-<pubDate>Mon, 04 May 2026 21:30:00 -0500</pubDate>
-<enclosure url="https://github.com/btmohler1234/fcal-updates-2026/releases/download/v10.1.6/LogicGrid-10.1.6.zip" sparkle:edSignature="F6wvAAaj7Ec5gGVb6+C4t3pa/B9TsO4UU5Y0cwk5PSye/MElxDSlTQmC/FI8syQ5gakc32Fg1qO8SSSvM5MoBg==" length="4721880" type="application/octet-stream"/>
+<description><![CDATA[<h3>LogicGrid 11.0.0</h3>
+<p><strong>Time signature support.</strong> LogicGrid now reads your project's time signature directly from Logic's LCD and adjusts the grid accordingly. Supports 2/4, 3/4, 4/4, 6/8, and 9/8. If your LCD doesn't show Time Signature, you can pick your project's signature manually from the new Time Signature menu, or right-click Logic's LCD → Customize Control Bar and Display to enable it.</p>
+<p>Also includes performance improvements (reduced AX traffic to Logic in spotlight modes) and a fix for the grid drawing on top of Settings, Welcome, and Bug Report windows.</p>]]></description>
+<pubDate>Tue, 05 May 2026 14:30:00 -0500</pubDate>
+<enclosure url="https://github.com/btmohler1234/fcal-updates-2026/releases/download/v11.0.0/LogicGrid-11.0.0.zip" sparkle:edSignature="MVYzs16YkxFg1OgMZ9kGfCudyfio2vqrLbVUgn09XMe1Ns9hfSrPaW4ajTxjaYha6Lb9RmUlTUpBQyPbI6X+Cg==" length="5431989" type="application/octet-stream"/>
 </item>
 </channel>
 </rss>
