@@ -6,22 +6,14 @@
 <description>LogicGrid app updates</description>
 <language>en</language>
 <item>
-<title>LogicGrid 10.1.5</title>
-<sparkle:version>1015</sparkle:version>
-<sparkle:shortVersionString>10.1.5</sparkle:shortVersionString>
+<title>LogicGrid 10.1.6</title>
+<sparkle:version>1016</sparkle:version>
+<sparkle:shortVersionString>10.1.6</sparkle:shortVersionString>
 <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-<description><![CDATA[<h3>LogicGrid 10.1.5</h3>
-<h4>Fixed</h4>
-<ul>
-<li>Localization update — users with a Mac set to something other than English should now have correct grid drawing by selecting "Structural AX Walk" in Advanced under Settings.</li>
-<li>If LogicGrid detects your Mac is set to something other than English, this option is automatically selected.</li>
-</ul>
-<h4>New</h4>
-<ul>
-<li>"Export Diagnostics" button in the bug report window. One click drops a log file on your Desktop with everything we need to debug an issue.</li>
-</ul>]]></description>
-<pubDate>Fri, 01 May 2026 18:30:00 -0500</pubDate>
-<enclosure url="https://github.com/btmohler1234/fcal-updates-2026/releases/download/v10.1.5/LogicGrid-10.1.5.zip" sparkle:edSignature="/JxJxXucXt/UjZUgWrraSntE0CNuc2hhKZEZK3mzvl/GHbFsYHeMUo4qJPHcFkJV4BFm/I8raeXRRgMd6JsTDQ==" length="4722451" type="application/octet-stream"/>
+<description><![CDATA[<h3>LogicGrid 10.1.6</h3>
+<p>Improves support for external monitors connected via docks, and when non-Retina and Retina displays are combined.</p>]]></description>
+<pubDate>Mon, 04 May 2026 21:30:00 -0500</pubDate>
+<enclosure url="https://github.com/btmohler1234/fcal-updates-2026/releases/download/v10.1.6/LogicGrid-10.1.6.zip" sparkle:edSignature="F6wvAAaj7Ec5gGVb6+C4t3pa/B9TsO4UU5Y0cwk5PSye/MElxDSlTQmC/FI8syQ5gakc32Fg1qO8SSSvM5MoBg==" length="4721880" type="application/octet-stream"/>
 </item>
 </channel>
 </rss>
