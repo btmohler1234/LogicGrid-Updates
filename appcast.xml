@@ -6,23 +6,16 @@
 <description>LogicGrid app updates</description>
 <language>en</language>
 <item>
-<title>LogicGrid 11.0.2</title>
-<sparkle:version>11002</sparkle:version>
-<sparkle:shortVersionString>11.0.2</sparkle:shortVersionString>
+<title>LogicGrid 11.0.3</title>
+<sparkle:version>11003</sparkle:version>
+<sparkle:shortVersionString>11.0.3</sparkle:shortVersionString>
 <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-<description><![CDATA[<h3>LogicGrid 11.0.2</h3>
-<p><strong>Improvements:</strong></p>
-<ul>
-<li>Grid Draw Mode is now a submenu with a checkmark on the active mode</li>
-<li>Larger, easier-to-grab line width sliders in Settings</li>
-<li>New "120 fps cursor tracking" toggle under Settings &rarr; Advanced for smoother spotlight feel</li>
-<li>Reduced AX traffic to Logic in spotlight modes</li>
-<li>Bug Report window has clearer step-by-step labels &mdash; users were missing the file-attachment step</li>
-<li>Menu cleanup: keyboard shortcuts moved to a submenu, ellipsis usage made consistent</li>
-</ul>
-<p><strong>Important fix:</strong> Resolves a Gatekeeper rejection some users on macOS Sequoia hit when installing fresh from a zip. AppleDouble metadata files were being baked into the distribution zip and persisted after extraction on certain Macs, triggering "unsealed contents present in the root directory of an embedded framework". Build pipeline now uses ditto --sequesterRsrc to sequester that metadata properly.</p>]]></description>
-<pubDate>Thu, 07 May 2026 07:30:00 -0500</pubDate>
-<enclosure url="https://github.com/btmohler1234/fcal-updates-2026/releases/download/v11.0.2/LogicGrid-11.0.2.zip" sparkle:edSignature="9TkyJYNpzFzk6bncMsPnxd/5vSr2DEa+HwTlTeo6savikvM8xdjbuhmYoCmX3eJIsaqBgkP0Qmqnyu8ZKihHAA==" length="5439711" type="application/octet-stream"/>
+<description><![CDATA[<h3>Bug Fix</h3>
+<p>Fixed a sneaky yet annoying bug that sometimes caused the grid to disappear when a plugin window or Logic menu window was open for more than 20 seconds.</p>
+<h3>Other Improvements</h3>
+<p>The Keyboard Shortcuts menu items are now clickable. Clicking does the same thing as the keyboard shortcut.</p>]]></description>
+<pubDate>Tue, 12 May 2026 11:30:00 -0500</pubDate>
+<enclosure url="https://github.com/btmohler1234/fcal-updates-2026/releases/download/v11.0.3/LogicGrid-11.0.3.zip" sparkle:edSignature="jr0oR9LZyYZvkt5pS6edQiBJ6B0LBv7ORL0LcpttLKydneWcOF/WhBzvDzA3U1yirU7dwl7cCzhP9KErprgXBA==" length="5445158" type="application/octet-stream"/>
 </item>
 </channel>
 </rss>
